@@ -1,7 +1,23 @@
+
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Rubik+Mono+One&display=swap');
+
 @import "bootstrap";
 
 header {
   border-top: 9px solid #222222;
+}
+
+h1 {
+  font-family: 'Indie Flower', cursive;
+  font-weight: 600;
+  letter-spacing: -1.5px;
+}
+
+h2 {
+  font-family: 'Indie Flower', cursive;
+  font-weight: 600;
+  letter-spacing: -1.5px;
 }
 
 hr {
@@ -39,6 +55,13 @@ hr {
   padding-top: 26px;
 }
 
+.footer-blurb {
+    font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+  font-style: italic;
+  text-align: right;
+  font-size: 10px;
+}
+
 .links {
   padding-top: 26px;
 }
@@ -49,3 +72,8 @@ hr {
   border-bottom: 1px solid #dfdfdf;
 }
 
+.next-quote {
+  color:#f84342;
+  font-family: 'Rubik Mono One', sans-serif;
+  font-size: 15px;
+}
